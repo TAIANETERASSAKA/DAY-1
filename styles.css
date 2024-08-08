@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+	overflow: hidden;
+  background: #43389F;
+  color: #fff;
+	font-family: 'Courier New', 'Courier', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-shadow: 10px 10px 8px 10px #888888;
+	background-image: linear-gradient(45deg,#3366CC 50%, #0099FF );
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+	transform: translate(-50%,-50%);
+	font-weight: 700;
+	
+}
+
+.big{
+	font-size:140px;
+	margin-top:6px;
+	margin-left:-25px;
+
+	letter-spacing: -0.21em;
+	font-family:  rgular, sans-serif;
+
+}
+
+
+.medium{
+	font-size:80px;
+	line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.small {
+  font-size: 26px;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+
+
+
